@@ -1,0 +1,40 @@
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bubble-grad" cx="50" cy="50" r="50" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981" />
+      <stop offset="1" stop-color="#059669" />
+    </radialGradient>
+  </defs>
+
+  <!-- Main Background Square -->
+  <rect width="100" height="100" rx="20" fill="#10B981" />
+
+  <!-- Tooth Body (Larger proportions for favicon) -->
+  <path
+    d="M50,15 C35,15 20,12 20,32 C20,52 25,87 38,87 C45,87 47,75 50,75 C53,75 55,87 62,87 C75,87 80,52 80,32 C80,12 65,15 50,15 Z"
+    fill="white"
+  />
+
+  <!-- Eyes -->
+  <ellipse cx="37" cy="42" rx="5" ry="9" fill="#10B981" />
+  <ellipse cx="63" cy="42" rx="5" ry="9" fill="#10B981" />
+
+  <!-- Smile -->
+  <path
+    d="M38,59 C42,67 58,67 62,59"
+    stroke="#10B981"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+
+  <!-- Chat Bubble Overlay - 35% bottom, -6% right -->
+  <g transform="translate(68, 24) scale(0.38)">
+    <path
+      d="M20,20 H80 C90,20 95,25 95,35 V65 C95,75 90,80 80,80 H45 L15,95 L30,80 H20 C10,80 5,75 5,65 V35 C5,25 10,20 20,20 Z"
+      fill="url(#bubble-grad)"
+    />
+    <circle cx="35" cy="50" r="4" fill="white" />
+    <circle cx="50" cy="50" r="4" fill="white" />
+    <circle cx="65" cy="50" r="4" fill="white" />
+  </g>
+</svg>

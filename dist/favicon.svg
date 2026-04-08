@@ -1,0 +1,21 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo-gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E" />
+      <stop offset="1" stop-color="#15803D" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="40" height="40">
+      <stop offset="0" stop-color="rgba(34, 197, 94, 0.4)" />
+    </filter>
+  </defs>
+  
+  <rect width="40" height="40" rx="10" fill="url(#logo-gradient)" />
+  
+  <!-- Stylized Aligner/Smile Shape -->
+  <path d="M12 20C12 20 12 28 20 28C28 28 28 20 28 20" stroke="white" stroke-width="3" stroke-linecap="round" />
+  <path d="M12 18V14C12 13.4477 12.4477 13 13 13H15C15.5523 13 16 13.4477 16 14V16" stroke="white" stroke-width="2" stroke-linecap="round" />
+  <path d="M24 16V14C24 13.4477 24.4477 13 25 13H27C27.5523 13 28 13.4477 28 14V18" stroke="white" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Sparkle/Guide Dot -->
+  <circle cx="28" cy="12" r="3" fill="#86EFAC" />
+</svg>
